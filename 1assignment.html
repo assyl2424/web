@@ -1,68 +1,102 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>первый сайт </title>
+    <meta charset="UTF-8">
+    <title>мой первый сайт</title>
 </head>
 <body>
-  <!-- заголовки -->
-  <h1>авыаа</h1>
-  <h2>ккака</h2>
-  <h3>акака</h3>
-  <p>яаккак</p>
 
-  <!-- списки -->
-  <h3>Мои хобби</h3>
-  <ol>
+<!-- Заголовки и параграф -->
+<h1>Assylkhan Aitzhan</h1>
+<h2>Web technology</h2>
+<h3>about me</h3>
+<p>my name's Assylkhan</p>
+
+<!-- Списки -->
+<ol>
     <li>футбол</li>
-    <li>гулять</li>
-    <li>играть кс </li>
-  </ol>
-  <h3>любимые сайты</h3>
-  <ul>
-    <li><a href="https://www.google.com" target="_blank">гугл</a></li>
-    <li><a href="https://www.youtube.com/" target="_blank">ютубчик</a></li>
-  </ul>
+    <li>играть игры</li>
+    <li>кататься на коньках</li>
+</ol>
 
-  <!-- фото и ссылки -->
-  <img src="myphoto.jpg" alt="Моё фото" width="150">
-  <p>
-    <a href="https://www.google.com" target="_blank">перейти на гугл</a> |
-    <a href="https://www.youtube.com/" target="_blank">перейти на ютубчик</a>
-  </p>
+<ul>
+    <li><a href="https://www.google.com" target="_blank">Google</a></li>
+    <li><a href="https://www.twitch.tv/" target="_blank">twitch</a></li>
+    <li><a href="https://youtube.com/" target="_blank">youtube</a></li>
+</ul>
 
-  <!-- кнопка -->
-  <button> сюда </button>
+<!--  фотки и ссылки -->
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1HLt964JQLk0k-6rKs389WMjtwgYNyWggsg&s" alt="Моё фото" width="200">
+<p>Мои любимые сайты:
+    <a href="https://github.com" target="_blank">гит</a> и
+    <a href="https://youtube.com/" target="_blank">youtube</a>.
+</p>
 
-  <!-- таблица расписания -->
-  <h3>расписание уник </h3>
-  <table border="1">
+<!--  Кнопка -->
+<button>Click Me</button>
+
+<!-- таблица -->
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Предмет</th>
+            <th>День</th>
+            <th>Время</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Математика</td>
+            <td>Понедельник</td>
+            <td>09:00-10:30</td>
+        </tr>
+        <tr>
+            <td>Физика</td>
+            <td>Среда</td>
+            <td>11:00-12:30</td>
+        </tr>
+        <tr>
+            <td>физра</td>
+            <td>Пятница</td>
+            <td>14:00-15:30</td>
+        </tr>
+    </tbody>
+</table>
+
+<!--  две колонки разделить -->
+<table border="1" width="100%" cellpadding="10">
     <tr>
-      <th>subject</th>
-      <th>day</th>
-      <th>time</th>
+        <td width="30%" valign="top">
+            <h3>Меню</h3>
+            <ul>
+                <li>Домой</li>
+                <li>Обо мне</li>
+                <li>Контакты</li>
+            </ul>
+        </td>
+        <td valign="top">
+            <h3>ак</h3>
+            <p>ка.</p>
+        </td>
     </tr>
-    <tr>
-      <td>fizra</td>
-      <td>monday</td>
-      <td>10:00</td>
-    </tr>
-    <tr>
-      <td>english</td>
-      <td>tuesday</td>
-      <td>13:00</td>
-    </tr>
-  </table>
+</table>
 
-  <!-- эмодзи -->
-  <p> день прекрасный  😊👌🔥</p>
+<!-- Эмодзи -->
+<p> 😀👍🌞</p>
 
-  <!-- форма -->
-  <form>
-    <label>имя:<input type="text" name="name"></label><br>
-    <label>email:<input type="email" name="email"></label><br>
-    <label>любимый цвет:<input type="color" name="color"></label><br>
-    <button type="submit">Отправить</button>
-  </form>
+<!-- Форма -->
+<form action="#" method="post">
+    <label for="name">имя</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">имя</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="color">любимый цвет</label><br>
+    <input type="color" id="color" name="color"><br><br>
+
+    <input type="submit" value="Отправить">
+</form>
+
 </body>
 </html>
